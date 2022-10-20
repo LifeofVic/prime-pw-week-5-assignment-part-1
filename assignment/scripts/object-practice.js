@@ -50,10 +50,12 @@ console.log('Before adding shoeCount update', me.shoeCount);
 me.shoeCount++;
 console.log('After adding to shoeCount update', me.shoeCount);
 
-
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
   - Do this the same way you updated the variable above
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor = "Red";
+console.log('Created the favoriteColor property for the object ME ', me);
